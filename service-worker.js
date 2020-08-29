@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gallons-calculator/precache-manifest.0aab2b9ea2df2bf023394bb279208f07.js"
+  "/gallons-calculator/precache-manifest.2564f306a3638f5a16f59452cc6ea386.js"
 );
 
 self.addEventListener('message', (event) => {
