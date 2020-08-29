@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: block;
+  background: url('./almond-wallpaper.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.Content {
+  margin: auto;
+  width: 70%;
+  background-color: #484343;
+  color: #e8e81d;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Content ~ div {
+  display: block;
+}
+
+.orchard-setup, .irrigation-setup {
+  margin: 30px;
+  border: 1px white solid
+}
+
+.form-fields {
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+}
+
+.form-field {
+  display: block;
+}
+
+.form-field label {
+  font-weight: 450;
+  font-size: 20px;
+  color: white;
+}
+
+.form-field input {
+  display: block;
+  margin: 5px auto;
+  padding: 5px;
+  border: 1px black solid;
+  border-radius: 5px;
+  height: 20px;
+}
+
+button {
+  width: 40%;
+  height: 50px;
+  background-color: #e8e81d;
+  color: rgb(22, 21, 21);
+  font-weight: bold;
+  font-size: 20px;
+  margin: 30px auto;
+  border: 1px;
+  border-radius: 5px;
+}
+
+.header {
+  color: black;
+}
